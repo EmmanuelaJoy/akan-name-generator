@@ -4,9 +4,11 @@
 <table>
 <tr>
 <td>
-  This is a webpage that displays an Akan name Generator which functions by calculating the day in a week that someone was born and based on the person's gender outputs their Akan name.
+  <p>This is a webpage that displays an Akan name Generator which functions by calculating the day in a week that someone was born and based on the person's gender outputs their Akan name.</p>
 
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<p>
+
+<p>To discover your Akan name, visit the webpage and enter the required details.</p>
 
 </td>
 </tr>
