@@ -1,13 +1,26 @@
-# Moringa Project 1
+# Moringa Project 2
 
-<h1>My Portfolio</h1>
+<h1>Akan Name Generator</h1>
 <table>
 <tr>
 <td>
-  A webpage displaying information about me such as my background,my projects and my hobbies.
+  This is a webpage that displays an Akan name Generator which functions by calculating the day in a week that someone was born and based on the person's gender outputs their Akan name.
 </td>
 </tr>
 </table>
+
+## Author's Information
+
+This project was developed by Emmanuela Joy a student at Moringa School. Find a link to her Github Site below.
+[Emmanuela Joy ](https://github.com/EmmanuelaJoy)
+
+## Setup Instructions
+
+No set-up instructions at the moment.
+
+## BDD
+
+No bdd at the moment.
 
 ## Demo
 
@@ -33,18 +46,17 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/EmmanuelaJoy/my-first-webpage/issues). Please include sample queries and their corresponding results.
 
-## Built with
+## Technologies Used:
 
-- HTML
-- CSS
+- HTML.
+- CSS.
+- Bootstrap framework.
+- JavaScript Programming Language.
 
-## To-do
+## Contact Information
 
-- Add responsive design feature.
-
-## Team
-
-[Emmanuela Joy ](https://github.com/EmmanuelaJoy)
+- Email : emmajoy81@gmail.com
+- Phone : +254 725853727
 
 ## [License](https://github.com/EmmanuelaJoy/my-portfolio/blob/main/LICENSE)
 
