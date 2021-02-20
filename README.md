@@ -5,14 +5,17 @@
 <tr>
 <td>
   This is a webpage that displays an Akan name Generator which functions by calculating the day in a week that someone was born and based on the person's gender outputs their Akan name.
+
+Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+
 </td>
 </tr>
 </table>
 
 ## Author's Information
 
-This project was developed by Emmanuela Joy a student at Moringa School. Find a link to her Github Site below.
-[Emmanuela Joy ](https://github.com/EmmanuelaJoy)
+This project was developed by Emmanuela Joy a software development student at Moringa School.
+Click on [Emmanuela Joy ](https://github.com/EmmanuelaJoy) to find the link to my Github Site.
 
 ## Setup Instructions
 
