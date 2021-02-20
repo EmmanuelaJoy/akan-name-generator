@@ -8,14 +8,36 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='./css/styles.css'>
-
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
 </head>
 
 <body>
-    <div class="row border mt-3">
-        <div class="column-md-12">
-            <h3>Akan Name Generator Form</h3>
-            <form id="akanNameForm">
+    <div class="container">
+        <div class="row border mt-3">
+            <div class="column-md-12">
+                <h2>Akan Name Generator Form</h2>
+                <form id="akanNameForm" class="p-3 mt-3" onsubmit="event.preventDefault(); getAnswer();">
+                    <label for="birthdate" class="form-label">Enter your date of birth here:</label>
+                    <input type="number" name="year" placeholder="Enter year" required>
+                    <select name="month" required>
+                        <option selected disabled value="-">Select month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <select name="day" required>
+                        <option selected disabled value="-">Select day</option>
+                    </select>
+                    <input type="submit" value="Get day">
 
 
 
@@ -23,13 +45,14 @@
 
 
 
+                    <p id="output">Enter a date to continue!</p>
 
 
-
-
-
-            </form>
-            <script src="./js/script.js"></script>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
