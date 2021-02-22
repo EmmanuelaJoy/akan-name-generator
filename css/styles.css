@@ -10,6 +10,24 @@ body {
   background-color: teal;
 }
 
+.sidebarMale {
+  width: 15%;
+  float: left;
+  background-color: rgb(212, 200, 21);
+  height: auto;
+  position: absolute;
+  top: 15%;
+}
+
+.sidebarFemale {
+  width: 15%;
+  float: left;
+  background-color: rgb(212, 200, 21);
+  height: auto;
+  position: absolute;
+  top: 75%;
+}
+
 h2 {
   font-family: "Arial Narrow Bold";
   color: rgb(212, 200, 21);
