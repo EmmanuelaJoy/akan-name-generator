@@ -28,6 +28,10 @@ body {
   top: 75%;
 }
 
+.jumbotron {
+  margin-bottom: 0.5em;
+}
+
 h2 {
   font-family: "Arial Narrow Bold";
   color: rgb(212, 200, 21);
@@ -35,7 +39,6 @@ h2 {
 }
 
 #akanForm {
-  border-bottom: 1px solid black;
   padding: 1em;
   text-align: center;
   background-color: white;
@@ -67,7 +70,7 @@ select {
 #submitBtn {
   padding: 0.2em 1em;
   margin: 5px;
-  background: #ccc;
+  background: #1e7e34de;
   border: 1px solid black;
 }
 
@@ -75,6 +78,13 @@ select {
   background: rgb(212, 200, 21);
 }
 
-table {
+#table {
   background-color: white;
+  padding: 1em;
+}
+
+td {
+  color: teal;
+  display: flex;
+  font-size: 24px;
 }
