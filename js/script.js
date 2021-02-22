@@ -1,9 +1,15 @@
 window.addEventListener("DOMContentLoaded", function () {
     console.log("Content Loaded");
 
-    var day = document.querySelector("form select[name=day]");
-    var month = document.querySelector("form select[name=month]");
-    var year = document.querySelector("form input[name=year]").getFullYear();
-    var gender = document.getElementById("gender").value;
+    let submitBtn = document.querySelector("#submitBtn");
+    let akanForm = document.querySelector("#akanForm");
+    let akanTBody = document.querySelector("#akanTBody");
 
+    akanForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+        console.log("Form submitted")
+
+        let birthdateInput = document.querySelector("#date");
+
+    })
 })
