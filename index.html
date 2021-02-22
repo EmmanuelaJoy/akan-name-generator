@@ -30,7 +30,7 @@
                 </div>
 
                 <h2>Akan Name Generator Form</h2>
-                <form id="akanForm">
+                <form id="akanForm" onsubmit="event.preventDefault(); showAkanName();">
 
                     <label for="birthdate" class="form-label">Enter your date of birth here:</label>
                     <input type="date" name="date" id="birthdate" required>

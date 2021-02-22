@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     let submitBtn = document.querySelector("#submitBtn");
     let akanForm = document.querySelector("#akanForm");
-    let akanTBody = document.querySelector("#akanTBody");
+    let namesTBody = document.querySelector("#akanTBody");
 
     akanForm.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         let akanNameRow = document.createElement("tr");
         akanNamesData = document.createElement("td");
-        akanTbody.appendChild(akanNameRow);
+        namesTbody.appendChild(akanNameRow);
 
         let nameList = new Array();
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", function () {
             nameList.forEach(function (name) {
                 akanNamesData.textContent = name;
                 akanNameRow.appendChild(akanNamesData);
-                akanTbody.appendChild(akanNameRow);
+                namesTbody.appendChild(akanNameRow);
             });
         }
     });
