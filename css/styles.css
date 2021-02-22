@@ -8,9 +8,15 @@ body {
   margin: 0 auto;
   padding: 1em;
   background-color: teal;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+}
+.row border mt-3 {
+  background-color: white;
+}
+
+h2 {
+  font-family: "Arial Narrow Bold";
+  color: rgb(212, 200, 21);
+  text-align: center;
 }
 
 #akanForm {
@@ -25,10 +31,8 @@ body {
   letter-spacing: 1px;
 }
 
-h2 {
-  font-family: "Arial Narrow Bold";
-  color: rgb(212, 200, 21);
-  text-align: center;
+input[type="select"] {
+  font-size: 22px;
 }
 
 #submitBtn {
@@ -41,18 +45,6 @@ h2 {
   background: rgb(212, 200, 21);
 }
 
-input[type="radio"] {
-  font-size: 22px;
-}
-
-#output {
-  text-align: center;
-  font-family: "Gill Sans";
-  font-style: oblique;
-  padding: 1em;
-}
-
-#output > span {
-  font-size: 4em;
-  display: block;
+table {
+  background-color: aquamarine;
 }

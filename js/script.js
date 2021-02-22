@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function () {
         const gender = document.querySelector("#gender").value;
 
         let dayBorn = new Date(birthdateInput);
-        dob = dayBorn.getDay()
+        dob = dayBorn.getDay();
 
         let akanNameRow = document.createElement("tr");
         akanNamesData = document.createElement("td");
