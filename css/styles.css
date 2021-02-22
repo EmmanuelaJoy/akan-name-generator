@@ -68,8 +68,8 @@ select {
 }
 
 #submitBtn {
-  padding: 0.2em 1em;
-  margin: 5px;
+  padding: 0.2em 3em;
+  margin: 30px;
   background: #1e7e34de;
   border: 1px solid black;
 }
