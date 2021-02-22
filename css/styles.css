@@ -31,20 +31,18 @@ h2 {
   text-align: center;
 }
 
-select {
-  background: white;
-  padding: 0.3em 1em;
-  border: 1px solid black;
-}
-
-input[type="submit"] {
+#submitBtn {
   padding: 0.2em 1em;
   background: #ccc;
   border: 1px solid black;
 }
 
-input[type="submit"]:hover {
-  background: rgb(0 123 255 / 50%);
+#submitBtn:hover {
+  background: rgb(212, 200, 21);
+}
+
+input[type="radio"] {
+  font-size: 22px;
 }
 
 #output {
@@ -52,10 +50,6 @@ input[type="submit"]:hover {
   font-family: "Gill Sans";
   font-style: oblique;
   padding: 1em;
-}
-
-input[type="radio"] {
-  font-size: 22px;
 }
 
 #output > span {
