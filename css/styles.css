@@ -33,7 +33,6 @@ body {
 }
 
 h2 {
-  font-family: "Arial Narrow Bold";
   color: rgb(212, 200, 21);
   text-align: center;
 }
@@ -54,10 +53,6 @@ h2 {
   font-family: cursive;
   font-style: italic;
   margin: 4px;
-}
-
-input[type="select"] {
-  font-size: 22px;
 }
 
 select {
