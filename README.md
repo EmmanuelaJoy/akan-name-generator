@@ -29,7 +29,7 @@ No bdd at the moment.
 
 ## Demo
 
-Here is a working live demo : https://emmanuelajoy.github.io/my-portfolio/
+Here is a working live demo : https://emmanuelajoy.github.io/akan-name-generator/
 
 ### Development
 

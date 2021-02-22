@@ -1,13 +1,13 @@
 window.addEventListener("DOMContentLoaded", function () {
     console.log("Content Loaded");
 
-    let submitBtn = document.querySelector("#submitBtn");
     let akanForm = document.querySelector("#akanForm");
-    let namesTBody = document.querySelector("#akanTBody");
+    let akanTbody = document.querySelector("#akanTBody");
+    //let submitBtn = document.querySelector("#submitBtn");
 
     akanForm.addEventListener("submit", function (event) {
         event.preventDefault();
-        //console.log("Form submitted")
+        console.log("Form submitted")
 
         let birthdateInput = document.querySelector("#birthdate").value;
         const gender = document.querySelector("#gender").value;
@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         let akanNameRow = document.createElement("tr");
         akanNamesData = document.createElement("td");
-        namesTbody.appendChild(akanNameRow);
+        akanTbody.appendChild(akanNameRow);
 
         let nameList = new Array();
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", function () {
             nameList.forEach(function (name) {
                 akanNamesData.textContent = name;
                 akanNameRow.appendChild(akanNamesData);
-                namesTbody.appendChild(akanNameRow);
+                akanTbody.appendChild(akanNameRow);
             });
         }
     });
