@@ -37,13 +37,15 @@
 
                     <p id="output">Enter a date to continue!</p>
 
-                    <label for="gender" id="gender" class="form-label">Enter your gender here:</label>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label>
+                    <label for="gender" class="form-label">Enter your gender here:</label>
+                    <select name="gender" id="gender">
+                        <option value="" selected>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
 
-                    <button type="submit" class="btn btn-primary" id="submitBtn">Get Akan Name</button>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Get Akan
+                        Name</button>
                 </form>
             </div>
         </div>
