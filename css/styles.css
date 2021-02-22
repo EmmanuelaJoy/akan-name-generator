@@ -9,9 +9,6 @@ body {
   padding: 1em;
   background-color: teal;
 }
-.row border mt-3 {
-  background-color: white;
-}
 
 h2 {
   font-family: "Arial Narrow Bold";
@@ -31,12 +28,27 @@ h2 {
   letter-spacing: 1px;
 }
 
+#output {
+  padding: 1em;
+  font-family: cursive;
+  font-style: italic;
+  margin: 4px;
+}
+
 input[type="select"] {
   font-size: 22px;
 }
 
+select {
+  background: ghostwhite;
+  padding: 0.2em 1em;
+  margin: 5px;
+  border: 1px solid black;
+}
+
 #submitBtn {
   padding: 0.2em 1em;
+  margin: 5px;
   background: #ccc;
   border: 1px solid black;
 }
@@ -46,5 +58,5 @@ input[type="select"] {
 }
 
 table {
-  background-color: aquamarine;
+  background-color: white;
 }
