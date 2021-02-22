@@ -30,40 +30,22 @@
                 </div>
 
                 <h2>Akan Name Generator Form</h2>
-                <form id="form" onsubmit="event.preventDefault(); getAnswer();">
-                    <label for="birthdate" class="form-label">Enter your date of birth here:</label>
-                    <input type="number" name="year" placeholder="Enter year" required>
-                    <select name="month" required>
-                        <option selected disabled value="-">Select month</option>
-                        <option value="January">January</option>
-                        <option value="February">February</option>
-                        <option value="March">March</option>
-                        <option value="April">April</option>
-                        <option value="May">May</option>
-                        <option value="June">June</option>
-                        <option value="July">July</option>
-                        <option value="August">August</option>
-                        <option value="September">September</option>
-                        <option value="October">October</option>
-                        <option value="November">November</option>
-                        <option value="December">December</option>
-                    </select>
-                    <select name="day" required>
-                        <option selected disabled value="-">Select day</option>
-                    </select>
-                    <input type="submit" value="Get day">
+                <form id="form">
 
+                    <label for="birthdate" class="form-label">Enter your date of birth here:</label>
+                    <input type="date" name="date" placeholder="Enter date here" required>
 
                     <p id="output">Enter a date to continue!</p>
-                    <div onsubmit="event.preventDefault(); akanName();">
-                        <label for="gender" class="form-label">Enter your gender here:</label>
-                        <input type="radio" id="male" name="gender" value="male">
-                        <label for="male">Male</label>
-                        <input type="radio" id="female" name="gender" value="female">
-                        <label for="female">Female</label>
 
-                        <input type="submit" value="Get Akan Name">
-                    </div>
+
+                    <label for="gender" class="form-label">Enter your gender here:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="submit" value="Get Akan Name">
+
                 </form>
             </div>
         </div>

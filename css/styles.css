@@ -7,6 +7,7 @@
 body {
   margin: 0 auto;
   padding: 1em;
+  background-color: teal;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -16,6 +17,7 @@ body {
   border-bottom: 1px solid black;
   padding: 1em;
   text-align: center;
+  background-color: white;
 }
 
 .form-label {
