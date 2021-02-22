@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
     console.log("Content Loaded");
-
+    let nameList = new Array();
     let submitBtn = document.querySelector("#submitBtn");
     let akanForm = document.querySelector("#akanForm");
     let akanTBody = document.querySelector("#akanTBody");
@@ -17,15 +17,15 @@ window.addEventListener("DOMContentLoaded", function () {
 
         let akanNameRow = document.createElement("tr");
         akanNamesData = document.createElement("td");
-        akanTbody.appendChild(nameRow);
+        akanTbody.appendChild(akanNameRow);
 
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let akanFemaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-        if (gender == "Male") {
+        if (gender == "male") {
             nameList.push(akanMaleName[dob]);
             showAkanName();
-        } else if (gender == "Female") {
+        } else if (gender == "female") {
             nameList.push(akanFemaleName[dob]);
             showAkanName();
         } else {
@@ -34,9 +34,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
         function showAkanName() {
             nameList.forEach(function (name) {
-                namesData.textContent = name;
-                nameRow.appendChild(akanNamesData);
-                nameTbody.appendChild(akanNameRow);
+                akanNamesData.textContent = name;
+                akanNameRow.appendChild(akanNamesData);
+                akanTbody.appendChild(akanNameRow);
             });
         }
     });
