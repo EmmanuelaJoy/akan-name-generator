@@ -1,31 +1,32 @@
 window.addEventListener("DOMContentLoaded", function () {
     console.log("Content Loaded");
-    let nameList = new Array();
+
     let submitBtn = document.querySelector("#submitBtn");
     let akanForm = document.querySelector("#akanForm");
     let akanTBody = document.querySelector("#akanTBody");
 
     akanForm.addEventListener("submit", function (event) {
         event.preventDefault();
-        console.log("Form submitted")
+        //console.log("Form submitted")
 
-        let birthdateInput = document.querySelector("#date").value;
+        let birthdateInput = document.querySelector("#birthdate").value;
         const gender = document.querySelector("#gender").value;
 
-        let dayBorn = newDate(birthdateInput);
-        dayBorn.getDay() = dob
+        let dayBorn = new Date(birthdateInput);
+        dob = dayBorn.getDay()
 
         let akanNameRow = document.createElement("tr");
         akanNamesData = document.createElement("td");
         akanTbody.appendChild(akanNameRow);
 
+        let nameList = new Array();
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let akanFemaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-        if (gender == "male") {
+        if (gender == "#male") {
             nameList.push(akanMaleName[dob]);
             showAkanName();
-        } else if (gender == "female") {
+        } else if (gender == "#female") {
             nameList.push(akanFemaleName[dob]);
             showAkanName();
         } else {
