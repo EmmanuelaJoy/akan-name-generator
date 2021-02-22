@@ -7,6 +7,9 @@
 body {
   margin: 0 auto;
   padding: 1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #form {
@@ -15,8 +18,9 @@ body {
   text-align: center;
 }
 
-label {
+.form-label {
   font-size: larger;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -46,4 +50,13 @@ input[type="submit"]:hover {
   font-family: "Gill Sans";
   font-style: oblique;
   padding: 1em;
+}
+
+input[type="radio"] {
+  font-size: 22px;
+}
+
+#output > span {
+  font-size: 4em;
+  display: block;
 }
