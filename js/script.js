@@ -15,49 +15,50 @@ window.addEventListener("DOMContentLoaded", function () {
         dob = dayBorn.getDay();
 
         if (dob == [0]) {
-            alert("You were born on a Sunday");
+            alert("You were born on a Sunday.");
         }
 
         else if (dob == [1]) {
-            alert("You were born on a Monday");
+            alert("You were born on a Monday.");
         }
 
         else if (dob == [2]) {
-            alert("You were born on a Tuesday");
+            alert("You were born on a Tuesday.");
         }
 
         else if (dob == [3]) {
-            alert("You were born on a Wednesday");
+            alert("You were born on a Wednesday.");
         }
 
         else if (dob == [4]) {
-            alert("You were born on a Thursday");
+            alert("You were born on a Thursday.");
         }
 
         else if (dob == [5]) {
-            alert("You were born on a Friday");
+            alert("You were born on a Friday.");
+
         }
 
         else if (dob == [6]) {
-            alert("You were born on a Saturday");
+            alert("You were born on a Saturday.");
         }
 
-        let nameList = new Array();
+        let akanNames = new Array();
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let akanFemaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
         if (gender == "male") {
-            nameList.push(akanMaleName[dob]);
+            akanNames.push(akanMaleName[dob]);
             showAkanName();
         } else if (gender == "female") {
-            nameList.push(akanFemaleName[dob]);
+            akanNames.push(akanFemaleName[dob]);
             showAkanName();
         } else {
-            alert("Kindly select your gender first");
+            alert("Select your gender in order to get your Akan name.");
         }
 
         function showAkanName() {
-            nameList.forEach(function (name) {
+            akanNames.forEach(function (name) {
                 alert("Your Akan name is: " + name);
 
             });
