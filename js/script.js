@@ -2,7 +2,6 @@ window.addEventListener("DOMContentLoaded", function () {
     console.log("Content Loaded");
 
     let akanForm = document.querySelector("#akanForm");
-    let akanTbody = document.querySelector("#akanTBody");
     //let submitbtn = document.querySelector("#submitBtn");
 
     akanForm.addEventListener("submit", function (event) {
@@ -15,14 +14,9 @@ window.addEventListener("DOMContentLoaded", function () {
         let dayBorn = new Date(birthdateInput);
         dob = dayBorn.getDay();
 
-        let akanNameRow = document.createElement("tr");
-        akanNamesData = document.createElement("td");
-        akanTbody.appendChild(akanNameRow);
-
         let nameList = new Array();
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let akanFemaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
 
         if (gender == "male") {
             nameList.push(akanMaleName[dob]);
@@ -36,9 +30,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         function showAkanName() {
             nameList.forEach(function (name) {
-                akanNamesData.textContent = name;
-                akanNameRow.appendChild(akanNamesData);
-                akanTbody.appendChild(akanNameRow);
+                alert("Your Akan name is:" + name);
 
             });
         }

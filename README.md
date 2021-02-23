@@ -23,10 +23,6 @@ Click on [Emmanuela Joy ](https://github.com/EmmanuelaJoy) to find the link to m
 
 No set-up instructions at the moment.
 
-## BDD
-
-No bdd at the moment.
-
 ## Demo
 
 Here is a working live demo : https://emmanuelajoy.github.io/akan-name-generator/
