@@ -14,6 +14,34 @@ window.addEventListener("DOMContentLoaded", function () {
         let dayBorn = new Date(birthdateInput);
         dob = dayBorn.getDay();
 
+        if (dob == [0]) {
+            alert("You were born on a Sunday");
+        }
+
+        else if (dob == [1]) {
+            alert("You were born on a Monday");
+        }
+
+        else if (dob == [2]) {
+            alert("You were born on a Tuesday");
+        }
+
+        else if (dob == [3]) {
+            alert("You were born on a Wednesday");
+        }
+
+        else if (dob == [4]) {
+            alert("You were born on a Thursday");
+        }
+
+        else if (dob == [5]) {
+            alert("You were born on a Friday");
+        }
+
+        else if (dob == [6]) {
+            alert("You were born on a Saturday");
+        }
+
         let nameList = new Array();
         let akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let akanFemaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -30,7 +58,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         function showAkanName() {
             nameList.forEach(function (name) {
-                alert("Your Akan name is:" + name);
+                alert("Your Akan name is: " + name);
 
             });
         }
