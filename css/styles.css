@@ -72,14 +72,3 @@ select {
 #submitBtn:hover {
   background: rgb(212, 200, 21);
 }
-
-#table {
-  background-color: white;
-  padding: 1em;
-}
-
-td {
-  color: teal;
-  display: flex;
-  font-size: 24px;
-}
