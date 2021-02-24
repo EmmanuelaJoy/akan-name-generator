@@ -64,6 +64,6 @@ window.addEventListener("DOMContentLoaded", function () {
             });
         }
 
-
+        document.getElementById("akanForm").reset()
     });
 });
